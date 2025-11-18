@@ -1,0 +1,4 @@
+ Eh identificado 2 patrones de diseño, builder y de creacion en todo el desarrollo, el builder para construir objetos complejos (como DTOs o Entidades con muchos parámetros opcionales) paso a paso, 
+ haciéndolos inmutables y creacion para crear objetos (especialmente entidades complejas del Dominio) sin exponer la lógica de instanciación al código cliente.
+
+ Esto es necesario porque son principios de codigo limpio que nos ayuda a la escabilidad del sistema 
